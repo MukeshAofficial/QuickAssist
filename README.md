@@ -18,11 +18,12 @@ In your code, set the API key as follows:
 ```python
 import os
 TOGETHER_API_KEY = "your-api-key"
-os.getenv(TOGETHER_API_KEY)tp://localhost:8501 to interact with the chatbot.
+os.getenv(TOGETHER_API_KEY)
+```
 
- Run the Streamlit app
+Run the Streamlit app
 Once the environment variable is set, you can run the Streamlit app with the following command:
-
+```python
 streamlit run app.py
-
+```
 
