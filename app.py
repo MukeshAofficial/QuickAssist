@@ -8,8 +8,8 @@ from langchain.embeddings import SentenceTransformerEmbeddings
 from together import Together
 
 # Define the Together API key
-TOGETHER_API_KEY = os.environ.get('TOGETHER_API_KEY')
-client = Together(api_key=TOGETHER_API_KEY)
+
+client = Together(api_key="467bfd934ccc3a1c97f3192007671e7b40874dba0945d07381b0b84a7ec7a281")
 
 # Function to load and process documents from a list of uploaded files
 def load_documents_from_files(files):
