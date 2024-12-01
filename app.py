@@ -9,7 +9,7 @@ from together import Together
 
 # Define the Together API key
 
-client = Together(api_key="467bfd934ccc3a1c97f3192007671e7b40874dba0945d07381b0b84a7ec7a281")
+client = Together(api_key="YOUR-API-KEY")
 
 # Function to load and process documents from a list of uploaded files
 def load_documents_from_files(files):
